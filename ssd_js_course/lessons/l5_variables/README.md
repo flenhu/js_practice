@@ -3,13 +3,19 @@
 ## 1. Understanding Variables
 - Variables are containers for storing data values. 
 - In JavaScript, a variable can be declared using `let`, `const`, or `var`.
-- Example:
+Example:
 ```javascript
 let message = 'Hello, World!';
 console.log(message);
 ```
 
 ## 2. Re-assign a variable
+- Variables declared with let can be reassigned to hold different data types or values.
+Example:
+```js
+let count = 1;
+count = 2; // Re-assigning the value
+```
 
 ## 3. Created the Cart Quantity feature
 
