@@ -1,0 +1,49 @@
+<!--
+  Lesson 4: HTML & CSS Review
+  Exercise 4i: Using HTML and CSS, try to copy the design of the provided.
+  (Make sure to follow the HTML structure).
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ex. 4I</title>
+
+  <style>
+    /* exercise 4e */
+    .add-to-cart-button {
+      background-color: yellow;
+    }
+    .buy-now-button {
+      background-color: orange;
+    }
+  </style>
+</head>
+<body>
+    <!-- Exercise 4a  -->
+    <h4>Exercise 4i: Using HTML and CSS, try to copy the design of the provided.</h4>
+    <hr>
+    <h4>Exercise 4j: Continuing from 4i, add onclick="..." attributes to the two buttons:</h4>
+    <ul>
+      <li>When clicking the 'add to cart', create a popup with the text 'Added'</li>
+      <li>When clikcing 'Buy now', display the message 'Loading' in the Console,
+        and then create a popup with the text 'Purchased'.
+      </li>
+    </ul>
+    <hr>
+
+    <p>Adults Plain Cotton T-shirt</p>
+    <p>Price: $7.99</p>
+    <button class="add-to-cart-button" onclick="
+      alert('Added');
+    ">Add to cart</button>
+
+    <button class="buy-now-button" onclick="
+      alert('Loading...');
+      alert('Purchased');
+    ">Buy now</button>
+    
+</body>
+</html>
