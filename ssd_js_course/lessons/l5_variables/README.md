@@ -1,9 +1,9 @@
 # Lesson 5: Variables
 
 ## 1. Understanding Variables
-Variables are containers for storing data values. In JavaScript, a variable can be declared using `let`, `const`, or `var`.
-
-Example:
+- Variables are containers for storing data values. 
+- In JavaScript, a variable can be declared using `let`, `const`, or `var`.
+- Example:
 ```javascript
 let message = 'Hello, World!';
 console.log(message);
