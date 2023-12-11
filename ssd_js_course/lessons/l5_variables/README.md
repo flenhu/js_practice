@@ -7,7 +7,7 @@ Example:
 ```javascript
 let message = 'Hello, World!';
 console.log(message);
-
+```
 
 ## 2. Re-assign a variable
 
