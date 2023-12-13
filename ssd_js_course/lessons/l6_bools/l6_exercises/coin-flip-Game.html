@@ -1,0 +1,71 @@
+<!-- 
+  We'll create a coin-flip game for exercises 6f - 6j:
+  6f. Generate a random number with Math.random(). Save it in a variable.
+  6g. Create an if-statement and check:
+    - If the number is less than 0.5, then display 'heads' in the console.
+    - Else display tails in the console
+  6i. Let's say we're trying to guess the result. Create a variable called
+      'guess' and save your guess ('heads' or 'tails').
+    - If your guess matches the result, display 'You win!' in the console.
+    - If your guess does not match the result, display 'You lose!' in the console.
+  6j. (Challenge) Instead of using If-statements in the previous exercises, try 
+      using the ternary operator to solve the problems.
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin-flip Game</title>
+  </head>
+  <body>
+    <p>
+      We'll create a coin-flip game for exercises 6f - 6j:
+      <ul>
+        <li>6f. Generate a random number with Math.random(). Save it in a variable.</li>
+        <li>6g. Create an if-statement and check:
+          <ul>
+            <li>If the number is less than 0.5, then display 'heads' in the console.</li>
+            <li>Else display tails in the console</li>
+          </ul>
+        </li>
+        <li>6i. Let's say we're trying to guess the result. Create a variable called
+          'guess' and save your guess ('heads' or 'tails').
+          <ul>
+            <li>If your guess matches the result, display 'You win!' in the console.</li>
+            <li>If your guess does not match the result, display 'You lose!' in the console.</li>
+          </ul>
+        </li>
+        <li>6j. (Challenge) Instead of using If-statements in the previous exercises, try 
+          using the ternary operator to solve the problems.</li>
+    </p>
+    <script>
+      // 6f
+      const randomNumber = Math.random();
+      console.log(randomNumber);
+
+      // 6g
+      if (randomNumber < 0.5) {
+        console.log('heads');
+      } else {
+        console.log('tails');
+      }
+
+      // 6i
+      const guess = 'heads';
+      if (guess === 'heads') {
+        console.log('You win!');
+      } else {
+        console.log('You lose!');
+      }
+
+      // 6j
+      const result = randomNumber < 0.5 ? 'heads' : 'tails';
+      console.log(result);
+      const guess2 = 'tails';
+      const message = guess2 === result ? 'You win!' : 'You lose!';
+      console.log(message);
+    </script>
+  </body>
+ </html>
