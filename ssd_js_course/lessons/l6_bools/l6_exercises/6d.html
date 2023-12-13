@@ -1,0 +1,44 @@
+<!-- 
+  Exercise 6d: Imagine an amusement park that a discount for children 
+  (6 years and younger) or seniors (65 years and older).
+  - create a variable called 'age' and save a person's age inside.
+  - create a if-statement to check if the person qualifies for a discount. If 
+  they do, display 'Discount' in the console. Otherwise, display 'No discount'.
+  - Note: try using the || operator in your solution.
+  - Try changing the 'age' variable to display different messages.
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ex 6d</title>
+ </head>
+ <body>
+    <h1>Exercise 6d</h1>
+    <p>
+      Imagine an amusement park that a discount for children 
+      (6 years and younger) or seniors (65 years and older).
+      <ul>
+        <li>create a variable called 'age' and save a person's age inside.</li>
+        <li>create a if-statement to check if the person qualifies for a discount. If 
+          they do, display 'Discount' in the console. Otherwise, display 'No discount'.</li>
+        <li>Note: try using the || operator in your solution.</li>
+        <li>Try changing the 'age' variable to display different messages.</li>
+      </ul>
+    </p>
+
+    <p>Example age: 5</p>
+    
+    <script>
+      const age = 5;
+      if (age <= 6 || age >= 65) {
+        console.log('Discount');
+      } else {
+        console.log('No discount');
+      }
+    </script>
+  
+ </body>
+ </html>
