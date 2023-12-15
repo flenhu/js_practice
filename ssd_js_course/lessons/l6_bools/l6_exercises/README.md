@@ -7,4 +7,4 @@
 
 **6b.** Continuing from 6a, try changing the value in the 'hour' variable to make it display different messages.
 
-**6c.** Continuing from 6a, create a variable called 'name' and save your name inside (as a string). Update the if-statement to display your name in each message. For example: 'Good morning $(name}!'
+**6c.** Continuing from 6a, create a variable called 'name' and save your name inside (as a string). Update the if-statement to display your name in each message. For example: 'Good morning ${name}!'
