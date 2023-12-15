@@ -1,22 +1,18 @@
 # Lesson 7 Exercises
 
+**7a.** Create a function called 'greet' that displays the message 'Hello!' in the console. Call/run this function a few times using: `greet();`
 
-7a. Create a function called 'greet' that displays the message 'Hello!' in the console. Call/run this function a few times using: `greet();`
 
-## b.
-Continuing from 7a, add a parameter called 'name' to the 'greet' function and display the message: 'Hello ${name}!' Call the function a few times with different names: `greet('Simon');`
+**7b.** Continuing from 7a, add a parameter called 'name' to the 'greet' function and display the message: 'Hello ${name}!' Call the function a few times with different names: `greet('Simon');`
 
-## c.
-Try calling `greet()` without a name (it will display 'Hello undefined!'). Modify the function so that if 'name' is undefined, it will display 'Hi there!' instead.
+**7c.** Try calling `greet()` without a name (it will display 'Hello undefined!'). Modify the function so that if 'name' is undefined, it will display 'Hi there!' instead.
 (Hint: use an if-statement. Since undefined is a falsy value, you can use: `if (!name) {...}` to check if 'name' is undefined).
 
-## d.
-Create a function 'convertToFahrenheit(celsius)' that takes a number in degrees Celsius and returns a number in degrees Fahrenheit.
+##### 7d. Create a function 'convertToFahrenheit(celsius)' that takes a number in degrees Celsius and returns a number in degrees Fahrenheit.
 - Formula: Fahrenheit = (Celsius * 9/5) + 32
 - `convertToFahrenheit(25) => 77`
 
-## e.
-Create a function 'convertToCelsius(fahrenheit)' that takes a number in degrees Fahrenheit and returns a number in degrees Celsius.
+**7e.**Create a function 'convertToCelsius(fahrenheit)' that takes a number in degrees Fahrenheit and returns a number in degrees Celsius.
 - Formula: Celsius = (Fahrenheit - 32) * 5/9
 - `convertToCelsius(86) => 30`
 
