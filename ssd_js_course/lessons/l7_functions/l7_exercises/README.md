@@ -1,7 +1,7 @@
 # Lesson 7 Exercises
 
-## a.
-Create a function called 'greet' that displays the message 'Hello!' in the console. Call/run this function a few times using: `greet();`
+
+7a. Create a function called 'greet' that displays the message 'Hello!' in the console. Call/run this function a few times using: `greet();`
 
 ## b.
 Continuing from 7a, add a parameter called 'name' to the 'greet' function and display the message: 'Hello ${name}!' Call the function a few times with different names: `greet('Simon');`
