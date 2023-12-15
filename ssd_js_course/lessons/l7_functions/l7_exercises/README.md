@@ -8,7 +8,7 @@
 **7c.** Try calling `greet()` without a name (it will display 'Hello undefined!'). Modify the function so that if 'name' is undefined, it will display 'Hi there!' instead.
 (Hint: use an if-statement. Since undefined is a falsy value, you can use: `if (!name) {...}` to check if 'name' is undefined).
 
-##### 7d. Create a function 'convertToFahrenheit(celsius)' that takes a number in degrees Celsius and returns a number in degrees Fahrenheit.
+#### 7d. Create a function 'convertToFahrenheit(celsius)' that takes a number in degrees Celsius and returns a number in degrees Fahrenheit.
 - Formula: Fahrenheit = (Celsius * 9/5) + 32
 - `convertToFahrenheit(25) => 77`
 
