@@ -11,3 +11,13 @@ to get the button from the page, and then display it in the console.
 
 **9d.** Create a text box (\<input\>) and a submit button. When clicking 'Submit', display \'Your name is: ${text}\' on the page
 (${text} = the text inside the text box) (hint: use value to get the text inside an \<input\>).
+
+
+**9d.** Create a text box (\<input\>) and a submit button. When clicking 'Submit', display 'Your name is: \${text}' on the page
+(\${text} = the text inside the text box) (hint: use value to get the text inside an \<input\>).
+
+
+Could you make the part: 
+display 'Your name is: ${text}'  
+
+show up as regular text in markdown
