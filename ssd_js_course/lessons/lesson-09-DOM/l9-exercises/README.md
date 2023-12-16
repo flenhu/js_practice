@@ -9,4 +9,5 @@ to get the button from the page, and then display it in the console.
 **9c.** Create 2 buttons 'heads' and 'tails', and a paragraph (\<p\>\</p\>) underneath. When clicking the 'heads' button, display
 'You chose: heads' in the paragraph. When the 'tails' button, display 'You chose: tails'.
 
-9c. Create 2 buttons 'heads' and 'tails', and a paragraph (`&lt;p&gt;&lt;/p&gt;`) underneath. When clicking the 'heads' button, display 'You chose: heads' in the paragraph. When the 'tails' button, display 'You chose: tails'.
+**9d.** Create a text box (\<input\>) and a submit button. When clicking 'Submit', display \'Your name is: ${text}\' on the page
+(${text} = the text inside the text box) (hint: use value to get the text inside an \<input\>).
