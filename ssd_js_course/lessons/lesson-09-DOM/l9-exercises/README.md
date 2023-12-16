@@ -23,3 +23,14 @@ to get the button from the page, and then display it in the console.
 **9h.** Let's create a project:
 - Whenever we type in the text box, update the text on the page.
 - To do this, we use an event call \<input onkeyup\"...\"\>
+- This runs code after we press a key and release it (key comes up).
+
+**9i.** We'll improve the Cart Quantity project.
+- Make a copy of exercise 7i (see the solution for 7i if needed).
+- Create a paragraph (\<p\>\</p\>) to display the quantity.
+- Whenever we update the quantity, display it on the page instead of in the console. Also, display the quantity when page first loads.
+
+**9j.** We'll improve the calculator project.
+- Make a copy of exercise 8h.
+- Whenever we update the calculation, display it on the page instead of in the console.
+- When the page first loads, if a calculation exists in localStorage, display it on the page.
